@@ -159,6 +159,7 @@ body._lock {
 .main__img {
 	border-radius: 10px;
 	width: 100%;
+	height: auto;
 }
 .title-description {
 	color: #d4eeca;
@@ -203,7 +204,7 @@ body._lock {
 		overflow: auto;
 		width: 100%;
 		height: 100%;
-		left: -100%;
+		left: -100%;	
 		top: 0;
 		background-color: rgba(1, 14, 9, 0.97);
 		display: flex;
