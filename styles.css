@@ -159,8 +159,8 @@ body._lock {
 .main__img {
 	border-radius: 10px;
 	width: 100%;
-	height: fit-content;
-	min-height: 365px;
+	height: auto;
+	aspect-ratio: attr(width)/attr(height);
 }
 .title-description {
 	color: #d4eeca;
